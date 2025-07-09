@@ -1,4 +1,22 @@
-PyQt5
-python-docx
-PyPDF2
-openpyxl 
+# Dosya Arama Uygulaması - Gerekli Kütüphaneler
+# Ana GUI Framework
+PyQt5==5.15.10
+
+# Microsoft Office Dosyaları
+python-docx==1.1.0        # Word dosyaları (.docx, .docm, .dotx, .dotm)
+openpyxl==3.1.2           # Excel dosyaları (.xlsx, .xlsm, .xltx, .xltm)
+python-pptx==0.6.23       # PowerPoint dosyaları (.pptx, .pptm, .ppsx, .ppsm, .potx, .potm)
+pyxlsb==1.0.10            # Excel Binary dosyaları (.xlsb)
+
+# PDF Dosyaları
+PyMuPDF==1.23.26          # PDF okuma (fitz modülü)
+
+# Sistem ve Dosya İşlemleri
+# multiprocessing - Python built-in (paralel işlem için)
+# re - Python built-in (regex arama için)
+# os - Python built-in (dosya sistemi)
+# zipfile - Python built-in (Visio .vsdx dosyaları için)
+# xml.etree.ElementTree - Python built-in (XML parsing için)
+
+# Not: Visio .vsdx dosyaları için ek kütüphane gerekmez (zipfile + xml kullanılıyor)
+# Not: .vsd dosyaları şu anda desteklenmiyor (özel kütüphane gerektirir) 
